@@ -1,10 +1,197 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset=utf-8/>
-	<title> test123</title>
+<!--bootstrap 5 example: product-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--favicon-->
+    <link rel="icon" href="https://foodz.howqpon.com/images/howqpon.ico" type="image/x-icon" />
+    <title>好客萌</title>
+    <!--include bootstrap 5-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/product/">
+    <link href="css/styles.css" rel="stylesheet">
+    <!--include fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src="https://kit.fontawesome.com/01625d77a1.js" crossorigin="anonymous"></script>
+    <!--additional css-->
+    <link href="css/landing_page.css" rel="stylesheet">
 </head>
 <body>
-	<h1>hello world</h1>
+    
+  <header class="site-header sticky-top py-1">
+    <nav class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="text-center" href="#header">
+        <img src="img/howqpon-logo-white.png" width="40px" height="auto">
+      </a>
+      <a class="py-2 d-none d-md-inline-block" href="#Story">想了解好客萌</a>
+      <a class="py-2 d-none d-md-inline-block" href="#Intro">想成為合作商家</a>
+      <a class="py-2 d-none d-md-inline-block" href="#DeliveryMan">想成為好客騎士</a>
+      <a class="py-2 d-none d-md-inline-block" href="#Endnote">想開始訂餐</a>
+    </nav>
+  </header>
+
+  <main>
+    <div id="header" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center" >
+      <div class="col-md-12 mx-auto my-3" >
+        <img class="logo-img" src="img/howqpon_logo.png">
+        <h1 class="display-1">「超過 <span class="fw-bold" style="color: #ff6600;">1,0000</span>上班族 吃飽喝足 滿意好評！」</h1>
+      </div>
+    </div>
+
+    <div id="Story" class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-start overflow-hidden">
+        <div class="my-4 py-3 px-4">
+          <h2 class="display-5">2022年，<br>我們成立了好客萌。</h2><br>
+          <p class="lead">
+            四月，三個20來歲的新鮮人女孩，帶著「共好共榮」的堅持，從騎共享單車到邀請騎士加入，在中山區作為起點，慢慢走進台北市每一棟商業大樓，為上班族提供熱騰騰的午餐服務。<br><br>
+            我們想讓上班辛苦的你，在辦公室就能準點吃到店內價的午餐；<br>
+            讓開店忙碌的你，能在離峰時間從容準備穩定大量的訂單；<br>
+            讓不顧風雨送餐的你，能不用趕單的在短距離內安全騎車。<br><br>
+            截止目前，好客萌已和近一百家谷歌評論4分以上的商家穩定合作。<br>
+            我們希望提高彼此的生活質感、提供商家、顧客更多樣化的選擇。<br><br>
+            與上班族群、餐飲店家、在地小農、地球環保共好共榮，我們是好客萌。
+          </p>
+        </div>
+      </div>
+      <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-4 px-4 py-1" style="text-align: left;">
+          <h4 class="display-5">
+            <i class="fa-solid fa-sack-dollar" style="color:#ff6600">&nbsp;店內價</i>
+          </h4>
+          <h6 class="display-6">
+            外送好貴，乾脆出去吃？<br>
+          </h6>
+          <p class="lead">
+            好客萌提供和商家相同的價錢<br>
+            免運費午餐直送 想吃美食不用動<br>
+          </p>
+          <br>
+          <h4 class="display-5">
+            <i class="fa-solid fa-star" style="color:#38ba8f">&nbsp;不踩雷</i>
+          </h4>
+          <h6 class="display-6">
+            四星商家，地圖慢慢找？<br>
+          </h6>
+          <p class="lead">
+            好客萌精選谷歌評論4.0以上餐廳<br>
+            高標準篩選商家 閉眼點餐都不怕<br>
+          </p>
+          <br>
+          <h4 class="display-5">
+            <i class="fa-solid fa-face-grin-squint" style="color:#ff6600 ;">&nbsp;回饋多</i>
+          </h4>
+          <h6 class="display-6">
+            團主開心，同事真安心！<br>
+          </h6>
+          <p class="lead">
+            好客萌大方放送訂餐團主回饋優惠<br>
+            團主訂餐有動力 同事吃得更滿意！<br>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="Intro" class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div>
+          <img src="img/lp-part2.png" class="intro-img">
+        </div>
+      </div>
+      <div class="text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-start overflow-hidden">
+        <div class="my-4 py-3">
+          <h2 class="display-5 fw-bold" style="color: #38ba8f;">精緻化服務<br>給商家最舒適的合作體驗！
+            </h2><br>
+          <p class="lead">
+            經過好客萌，顧客信任、店家安心！<br><br>
+            好客萌成立至今，和台北超過五十家在地知名商家合作愉快。<br><br>
+            我們致力解決店家常有與平台、外送員產生矛盾的問題，<br>
+            採取「一對一真人後台服務」讓店家省去與外送員溝通的困擾，專心備餐；<br>
+            也幫助店家「提高曝光率」，替六成以上合作店家增加25%以上的收入；<br>
+            採取「提前給單」模式，讓店家能在離峰時間預先備餐，<br>
+            保障顧客口感、餐點品質及店家名聲。<br>
+            好客萌秉持「共好共榮」的理念，篩選店家機制嚴格、寧缺勿濫的堅持，也能確保每一個和好客萌合作的商家都有穩定的收入。<br>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="DeliveryMan" class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-start overflow-hidden">
+        <div class="my-4 p-3">
+          <h2 class="display-5 fw-bold pt-3" style="color: #38ba8f;">不需搶單、保障時薪，<br>給外送員最安心的送餐體驗！</h2><br>
+          <p class="lead">
+            好客萌帶著共好共榮的心，<br>希望送餐員行車平安、希望大環境和諧安定。<br><br>
+            我們致力解決外送員搶單趕車、事故頻傳的現象，<br>
+            採取「排班保底」制，讓每個外送員從容送餐也不怕少賺；<br>
+            「精心挑選合作店家」，素質穩定，讓外送員不必和店家、客戶爭吵；<br>
+            在「固定區域」內送餐，合作店家固定，讓外送員熟悉路線，短距離送餐。<br><br>
+            善盡社會責任的好客萌，騎士送得安心、客戶吃得放心！<br>
+          </p>
+        </div>
+
+      </div>
+      <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div>
+          <img src="img/lp-part3.png" class="delivery-img">
+        </div>
+      </div>
+    </div>
+
+    <div id="Endnote" class="position-relative overflow-hidden text-center bg-img" >
+      <picture>
+        <img src="img/group-pic.jpg" class="w-100" style="width: 100%; height: auto; object-fit: cover;">
+      </picture>
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.5);">
+        <div class="col-md-12">
+          <h4 class="display-4 fw-bold" style="color: #fff; ">一頓熱騰騰的午飯，<br>和上班族、店家、騎士共好共榮，</h4>
+          <div style="min-height: 16px;"></div>
+          <h2 class="display-2 fw-bold" style="color: #38BA8F;">
+            我們是好客萌。
+          </h2>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-6 col-md text-end mb-4">
+        <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=767ohmln">
+          <i class="fa-brands fa-line display-4" style="font-size: 150px; color: #38ba8f;"></i>
+        </a>
+        <small class="d-block text-muted fw-bold fs-6 me-2">中山區走這裡&nbsp;<i class="fa-solid fa-arrow-turn-up"></i></small>
+      </div>
+      <div class="col-6 col-md text-start">
+        <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=913kyuiq">
+          <i class="fa-brands fa-line display-4" style="font-size: 150px; color: #38ba8f;"></i>
+        </a>
+        <small class="d-block text-muted fw-bold fs-6 ms-2">信義區走這裡&nbsp;<i class="fa-solid fa-arrow-turn-up"></i></small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 col-md text-center">
+        <a class="text-center" href="#header">
+          <img src="img/howqpon-logo-green.png" width="60px" height="auto">
+        </a>
+        <small class="d-block ms-3 text-muted">&copy;&nbsp;Howqpon</small>
+      </div>
+
+      <div class="col-4 col-md pt-1 text-center">
+        <h3>
+          <a href="https://www.facebook.com/howqunion" style="color: #38ba8f;">
+            <i class="fa-brands fa-facebook display-4"></i>
+          </a>
+        </h3>
+      </div>
+      <div class="col-4 col-md pt-1 text-center">
+        <h3>
+          <a href="https://www.instagram.com/howqpon/" style="color: #38ba8f">
+            <i class="fa-brands fa-instagram display-4"></i>
+          </a>
+        </h3>
+      </div>
+    </div>
+  </footer>
 </body>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 </html>
